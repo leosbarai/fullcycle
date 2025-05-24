@@ -6,6 +6,8 @@ COPY . .
 
 RUN npm install
 
+RUN npm init -y
+
 ENV DOCKERIZE_VERSION v0.6.1
 
 RUN apk add --no-cache wget \
